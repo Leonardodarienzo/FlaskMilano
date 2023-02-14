@@ -11,7 +11,7 @@ def ciao_mondo():
 
 @app.route('/benvenuto', methods=['GET'])
 def benvenuto():
-    return render_template('benvenuto.html')
+    return render_template('milano.html')
 
 if __name__ == '__main__':
-  app.run(host='0.0.0.0', port=3245, debug=True)#da fare sempre
+  app.run(host='0.0.0.0', port=3245, debug=True)
